@@ -44,11 +44,12 @@ This website showcases 62+ printing products and services, from business cards a
 
 ### 🖼️ **Product Showcase**
 All 62 products displayed with:
-- High-quality images from Unsplash
+- High-quality actual product images (PNG format)
 - Product name and description
 - Add to Cart & Buy Now buttons
 - Hover animations
 - "Added ✓" feedback on cart addition
+- Images stored in `/public/products/` directory
 
 ## 📦 Complete Product List (62 Items)
 
@@ -149,8 +150,8 @@ All 62 products displayed with:
 
 ### **Image Optimization**
 - Next.js Image component
-- Unsplash API integration
-- Remote pattern configuration
+- Local product images (62 high-quality PNG files)
+- Optimized image loading and caching
 
 ## 📂 Project Structure
 
@@ -162,6 +163,9 @@ All 62 products displayed with:
 │   ├── globals.css            # Global styles
 │   └── api/
 │       └── [[...path]]/route.js  # API placeholder
+├── public/
+│   └── products/              # Product images (62 PNG files)
+│       ├── 1.png - 62.png
 ├── components/
 │   └── ui/                    # shadcn/ui components
 │       ├── button.jsx
