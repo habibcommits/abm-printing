@@ -165,12 +165,15 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <div className="flex items-center space-x-2">
-              <span className="text-2xl md:text-3xl font-black text-blue-900">abm</span>
-              <div className="flex flex-col leading-none">
-                <span className="text-[9px] md:text-[10px] font-bold text-gray-600 uppercase tracking-tight">Printing</span>
-                <span className="text-[9px] md:text-[10px] font-bold text-gray-600 uppercase tracking-tight">Solution</span>
-              </div>
+            <div className="flex items-center">
+              <Image 
+                src="/logo.png" 
+                alt="abm Printing Solution" 
+                width={120} 
+                height={60} 
+                className="h-10 md:h-12 w-auto object-contain"
+                priority
+              />
             </div>
 
             {/* Desktop Menu */}
